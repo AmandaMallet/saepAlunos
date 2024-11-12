@@ -29,11 +29,21 @@
         <section class="turma1">
             <h2>Turma 1</h2>
             <div class="aluno">
-                <label>Nome:</label>
-                <label>Email:</label>
-                <label>Professor:</label>
-                <label>Turma:</label>
-                <label>PCD:</label>
+                <div class="linha"><label>Nome:</label>
+                    <p>a</p>
+                </div>
+                <div class="linha"><label>Email:</label>
+                    <p>a</p>
+                </div>
+                <div class="linha"><label>Professor:</label>
+                    <p>a</p>
+                </div>
+                <div class="linha"><label>Turma:</label>
+                    <p>a</p>
+                </div>
+                <div class="linha"><label>PCD:</label>
+                    <p>a</p>
+                </div>
                 <div class="botoes">
                     <button>Editar</button>
                     <button>Excluir</button>
@@ -47,8 +57,68 @@
                 </div>
             </div>
         </section>
-        <section class="turma2"></section>
-        <section class="turma3"></section>
+        <section class="turma2">
+            <h2>Turma 2</h2>
+            <div class="aluno">
+                <div class="linha"><label>Nome:</label>
+                    <p>a</p>
+                </div>
+                <div class="linha"><label>Email:</label>
+                    <p>a</p>
+                </div>
+                <div class="linha"><label>Professor:</label>
+                    <p>a</p>
+                </div>
+                <div class="linha"><label>Turma:</label>
+                    <p>a</p>
+                </div>
+                <div class="linha"><label>PCD:</label>
+                    <p>a</p>
+                </div>
+                <div class="botoes">
+                    <button>Editar</button>
+                    <button>Excluir</button>
+                </div>
+                <div class="status">
+                    <select name="status" id="status">
+                        <option value="ativo">Ativo</option>
+                        <option value="desativado">Desativado</option>
+                    </select>
+                    <button>Alterar Status</button>
+                </div>
+            </div>
+        </section>
+        <section class="turma3">
+            <h2>Turma 3</h2>
+            <div class="aluno">
+                <div class="linha"><label>Nome:</label>
+                    <p>a</p>
+                </div>
+                <div class="linha"><label>Email:</label>
+                    <p>a</p>
+                </div>
+                <div class="linha"><label>Professor:</label>
+                    <p>a</p>
+                </div>
+                <div class="linha"><label>Turma:</label>
+                    <p>a</p>
+                </div>
+                <div class="linha"><label>PCD:</label>
+                    <p>a</p>
+                </div>
+                <div class="botoes">
+                    <button>Editar</button>
+                    <button>Excluir</button>
+                </div>
+                <div class="status">
+                    <select name="status" id="status">
+                        <option value="ativo">Ativo</option>
+                        <option value="desativado">Desativado</option>
+                    </select>
+                    <button>Alterar Status</button>
+                </div>
+            </div>
+        </section>
     </main>
     <script src="script.js"></script>
 </body>

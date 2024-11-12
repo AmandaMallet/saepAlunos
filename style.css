@@ -143,3 +143,84 @@ main {
     width: 100px;
 }
 
+
+
+.mainGerenciar  {
+    display: flex;
+    flex-direction: row;
+}
+
+.mainGerenciar h2 {
+    margin-bottom: 15px;
+}
+
+.turma1, .turma2, .turma3 {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+}
+
+.aluno {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    background-color: #dddddd;
+    border-radius: 5px;
+    padding: 10px 10px;
+    width: 80%;
+}
+
+.linha {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2px;
+}
+
+.linha label {
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.botoes {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.botoes button {
+    border: none;
+    background-color: var(--azul);
+    color: #fff;
+    padding: 5px 8px;
+    border-radius: 5px;
+    width: auto;
+    margin-right: 20px;
+}
+
+.botoes button:hover {
+    background-color: #000;
+    transition: all 0.3s ease;
+}
+
+.status {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.status button {
+    border: none;
+    background-color: var(--azul);
+    color: #fff;
+    padding: 5px 5px;
+    border-radius: 5px;
+    width: auto;
+    margin-left: 15px;
+}
+
+.status button:hover {
+    background-color: #000;
+    transition: all 0.3s ease;
+}

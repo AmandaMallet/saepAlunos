@@ -29,9 +29,9 @@
         <form>
             <h1>Cadastro de Alunos</h1>
             <label>Nome:</label>
-            <input type="text" id="nome" name="nome">
+            <input type="text" id="nome" name="nome" required >
             <label>Descrição:</label>
-            <input type="text" id="descricao" name="descricao">
+            <input type="text" id="descricao" name="descricao" required >
             <label>Professor:</label>
             <select name="usuario" id="usuario">
                 <option value="professor1">Professor1</option>

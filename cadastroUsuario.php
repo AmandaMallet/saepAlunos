@@ -29,9 +29,9 @@
         <form>
             <h1>Cadastro de Usuários</h1>
             <label>Nome:</label>
-            <input type="text" id="nome" name="nome">
+            <input type="text" id="nome" name="nome" required >
             <label>Email:</label>
-            <input type="email" id="email" name="email">
+            <input type="email" id="email" name="email" required >
             <input type="submit" id="cadastrar" value="Cadastrar">
         </form>
     </main>
