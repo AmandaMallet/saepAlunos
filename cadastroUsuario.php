@@ -26,13 +26,22 @@
         </div>
     </header>
     <main class="mainUsuario">
-        <form>
+        <form method="post" action="cadastrarUsuario.php">
             <h1>Cadastro de Usuários</h1>
             <label>Nome:</label>
-            <input type="text" id="nome" name="nome" required >
+            <input type="text" id="nome" name="nome" required>
             <label>Email:</label>
-            <input type="email" id="email" name="email" required >
+            <input type="email" id="email" name="email" required>
             <input type="submit" id="cadastrar" value="Cadastrar">
+            <?php if (isset($_GET['sucesso'])) { ?>
+                <p>
+                    <?php
+                    if ($_GET['sucesso'] == 1) {
+                        echo "Cadastro feito com sucesso!";
+                    }
+                    ?>
+                </p>
+            <?php } ?>
         </form>
     </main>
     <script src="script.js"></script>

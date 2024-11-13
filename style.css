@@ -96,6 +96,7 @@ main {
     padding: 5px 5px;
     border-radius: 5px;
     width: auto;
+    margin-bottom: 15px;
 }
 
 .mainUsuario  form #cadastrar:hover {
